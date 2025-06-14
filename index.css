@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  font-family: "Khmer OS Siemreap", "Arial", sans-serif;
+  background: #fff9f0;
+}
+
+header {
+  background-color: #ff7043;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-size: 24px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+}
+
+.menu a {
+  background-color: #ffe0b2;
+  color: #333;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 20px;
+  text-decoration: none;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+}
+
+.menu a:hover {
+  background-color: #ffd180;
+  transform: scale(1.03);
+}
